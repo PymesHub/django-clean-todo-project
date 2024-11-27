@@ -16,3 +16,6 @@ class TaskRepository:
     
     def delete_task(self, task_id: int) -> None:
         raise NotImplementedError
+    
+    def get_task_by_id(self, task_id: int) -> Task:
+        raise NotImplementedError
